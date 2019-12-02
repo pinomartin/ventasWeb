@@ -1,0 +1,19 @@
+**** CSS GRID ****
+**SIEMPRE HAY QUE TENER UN CONTENEDOR PADRE AL QUE LE APLICAMOS GRID Y ESTO AFECTARA A SUS "HIJOS"**
+
+La forma en q utilizamos esto es display: grid
+Para poder localizar los objetos (grid reconoce los objetos hijos que contiene el contenedor padre que estamos seteando)
+utilizamos grid-template-columns: repeat (cantidad de columnas, tamaño) ---> Lo recomendable es usar en tamaño 1fr por ejemplo,,
+esto me va dar 2 columnas y le asigna una fraccion (fr) a cada una....
+
+y justify-content para organizarlos en posicion....
+
+para crear una separacion entre elementos del layout grid utilizamos "grid-gap" (aplica tanto para fila como para columna)
+
+
+**Para colocar Imagenes Grandes dentro de una lista vamos a utlizar :
+-background-image
+-grid-row : n°fila desde / n° fila hasta
+-grid-columna : n°columna desde / n° columna hasta
+
+es necesario cuando la pantalla es muy pequeña setear un min-height para la imagen grande
