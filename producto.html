@@ -18,14 +18,40 @@
     </header>
     <div class="barra">
         <nav class="nav">
-            <a href="index.html">Inicio</a>
+            <a href="index.html">Tienda</a>
             <a href="nosotros.html">Nosotros</a>
         </nav>
     </div>
 
+    <main class="contenedor">
+        <h1>JavaScript</h1>
+        <!--CONTENEDOR QUE LLEVA display:grid-->
+        <div class="contenedor-informacion">
+            <img src="/img/12.jpg" alt="producto" class="imagen-producto">
+            <div class="texto-producto">
+                <p>Maecenas id varius augue, non tincidunt magna. Aenean ullamcorper, nibh in scelerisque pretium, lacus lacus dignissim risus, ac rutrum nulla nunc eu libero. Ut purus elit, varius quis lacus ut, porttitor ultrices ex. Nullam faucibus aliquam
+                    magna, tincidunt congue quam pharetra et.</p>
+                <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent eget convallis massa. Mauris at sollicitudin tellus. Donec posuere lacinia dolor eu tempus. Integer interdum nulla ut tellus ornare, ac ultrices
+                    neque faucibus. Sed eget lectus et libero ultricies placerat sed ut metus. Donec ornare tempus ex ut pulvinar. Pellentesque finibus lorem in urna pulvinar, id fringilla turpis dictum. Ut lectus ante, interdum vel purus in, semper varius
+                    est.
+                </p>
+                <form class="formulario-pedido">
+                    <select class="talla campo">
+                        <option value="C">Chica</option>
+                        <option value="M">Mediana</option>
+                        <option value="G">Grande</option>
+                    </select>
+                    <input type="number" min="1" class="cantidad campo">
+                    <input type="submit" class="boton" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
     <footer class="footer">
         <p class="copyright">
-            Front-End Store - Todos los Derechos Resevados 2019.
+            Front-End Store - Todos los Derechos Reservados 2019.
         </p>
     </footer>
 </body>
